@@ -15,4 +15,7 @@ top_a2 = int(input('Wierzchołek A2: '))
 top_b1 = int(input('Wierzchołek B1: '))
 top_b2 = int(input('Wierzchołek B2: '))
 top_c1 = int(input('Wierzchołek C1: '))
-top_c2 = int(input('Wierzchołek C2: '))
+
+
+top_a1 = int(input('Wierzchołek A1: '))
+top_a2 = int(input('Wierzchołek A2: '))
