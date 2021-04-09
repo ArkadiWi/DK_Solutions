@@ -20,6 +20,10 @@ while True:
         if len(anagr_1) > len(anagr_2):
             angram_score = False
 
+        if len(anagr_1) == len(anagr_2):
+            if sorted(anagr_1) != sorted(anagr_2):
+                angram_score = False
+
         if angram_score:
             for char in anagr_1:
                 try:

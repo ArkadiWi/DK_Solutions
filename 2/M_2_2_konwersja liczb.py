@@ -16,7 +16,7 @@ while True:
             value = int(input('Podaj wartość dziesiętną: '))
             # sposób nr 1
             binar = bin(value).replace('0b', '')
-            print(f'Wartość dziesiętna: {value} , wartość binarna to: {binar}')
+            printf('Wartość dziesiętna: {value} , wartość binarna to: {binar}')
             # sposób nr 2
             wynik = []
             value_2 = value
@@ -53,3 +53,6 @@ while True:
             print(f'(3) Wartość dziesiętna z liczby {binar} to: {suma}')
         except ValueError:
             print('\t\tŹle wpisana wartość')
+            (((((('      '))))))
+
+

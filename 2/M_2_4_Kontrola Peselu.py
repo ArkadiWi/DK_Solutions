@@ -16,8 +16,7 @@ if len (pesel_2) != 11:
 for i in range(len(pesel_2)):
     suma += int(pesel_2[i]) * MULTIPLIER[i]
 
-check_number = str(suma)
-if str(check_number[-1]) == '0':
+if str(suma)[-1] == '0':
     print('Numer Pesel jest poprawny')
 else:
     print('Twój nr Pesel się nie zgadza')
