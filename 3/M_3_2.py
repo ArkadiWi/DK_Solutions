@@ -11,7 +11,8 @@ while True:
         continue
 
 c = 1
-score = [x for x in numbers if x % 2 == 0]
+score = [x for x in numbers if x % 2 == 0]2
+
 for i in range(len(score)):
     c *= score[i]
 print(f'Suma liczb parzystych wynosi: {c}')

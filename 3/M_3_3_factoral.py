@@ -7,8 +7,9 @@ def get_factorial (number: int = 1 ):
     return a
 
 try:
-    num = int(input('Podaj do ilu chceszliczyć silnię: '))
+    num = int(input('Podaj do ilu chcesz liczyć silnię: '))
 except ValueError:
-    print('Popdałeś niewłaściwą liczbę')
+    print('Podałeś niewłaściwą liczbę')
+    num = 0
 
 print(f'Silnia dla {num} wynosi: {get_factorial(num)}')
